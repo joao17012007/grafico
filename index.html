@@ -2,13 +2,24 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=deviceiwidh, initial-scale=1.0">
-        <title>relatorio explorando su preferências e estilo de vida</title>
-        <kink rel="tylesheet" href="style.css">
-            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!--chart.js-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Relatório Alimentação</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https:/cdn.jsdelivr.net/npm/chart.js"></script>
     </head>
     <body>
         <header>
-            <h1>relatorio explorando su preferências e estilo de vida</h1>
+            <h1>Relatório Alimentação</h1>
         </header>
+        <main>
+            <section id="grafico-container">
+                <canvas id="graficoPizza"></canvas>
+                <canvas id="graficoBarra"></canvas>
+            </section>
+        </main>
+        <footer>
+            <p>Desenvolvido por Guilherme Bondezan</p>
+        </footer>
+        <script src="graficos.js"></script>
     </body>
+</html>
